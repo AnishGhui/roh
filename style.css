@@ -1,0 +1,182 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* More modern and professional font */
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Light, clean background */
+    color: #333; /* Dark text for contrast */
+    line-height: 1.7;
+}
+
+/* Header Section */
+header {
+    background-color: #1F1F1F; /* Dark background for a sleek look */
+    color: #FFF; /* White text for high contrast */
+    padding: 50px 0; /* Larger padding for a more spacious header */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header h1 {
+    font-size: 4em; /* Large title to create impact */
+    color: #F5A623; /* Warm, professional accent color */
+    letter-spacing: 2px; /* Slight letter spacing for elegance */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 30px; /* More space between links */
+}
+
+nav ul li a {
+    color: #FFF; /* White links for contrast */
+    text-decoration: none;
+    font-size: 1.4em; /* Slightly larger text for better legibility */
+    font-weight: 500; /* Medium weight for balance */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #F5A623; /* Bright hover effect with accent color */
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(135deg, #8A2BE2, #F5A623); /* Lavender and orange gradient for a vibrant, professional feel */
+    color: #FFF; 
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    max-width: 350px;
+    border-radius: 50%; /* Circular image for a modern, professional touch */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Larger shadow for more depth */
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-image:hover {
+    transform: scale(1.08); /* Slight zoom effect on hover */
+}
+
+.hero-text {
+    max-width: 600px;
+    font-size: 1.3em; /* Clean and readable text size */
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+/* Heading Styles */
+h1, h2 {
+    font-family: 'Georgia', serif; /* Serif fonts for a classic, professional look */
+    color: #FFF;
+}
+
+h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+/* Lyric Analysis Section */
+#lyric-analysis {
+    background-color: #FFF; /* White background for the content area */
+    padding: 60px 50px;
+    margin: 40px auto;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Refined shadow for depth */
+}
+
+.song {
+    background-color: #F9F9F9; /* Very light gray for each song's block */
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Softer shadow */
+}
+
+.song h3 {
+    font-size: 2.5em;
+    color: #2C3E50; /* Deep blue-gray for song titles */
+    margin-bottom: 15px;
+}
+
+.song p {
+    font-size: 1.2em;
+    color: #555; /* Soft gray for text */
+    line-height: 1.6;
+}
+
+.song-image {
+    width: 100%;
+    max-width: 650px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Poll Section */
+#poll-form {
+    margin-top: 40px;
+    background-color: #F8F8F8; /* Soft background */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+select {
+    font-size: 1.2em;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #F5A623; /* Warm accent button color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3em;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+button:hover {
+    background-color: #D05C3A; /* Red hue for hover effect */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1F1F1F;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.2em;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-weight: 300; /* Light font weight for footer */
+}
